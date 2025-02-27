@@ -5,10 +5,10 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { PloneRegistryVitePlugin } from "@plone/registry/vite-plugin";
 
 export default defineConfig({
-	plugins: [
-		PloneRegistryVitePlugin(),
-		tailwindcss(),
-		reactRouter(),
-		tsconfigPaths(),
-	],
+  plugins: [
+    PloneRegistryVitePlugin(),
+    tailwindcss(),
+    reactRouter(),
+    tsconfigPaths(),
+  ],
 });

@@ -11,6 +11,9 @@ importers:
       '@plone/blocks':
         specifier: 1.0.0-alpha.3
         version: 1.0.0-alpha.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(storybook@8.5.8(prettier@2.8.8))
+      '@plone/react-router':
+        specifier: 1.0.1
+        version: 1.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@plone/registry':
         specifier: 2.4.1
         version: 2.4.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -679,6 +682,15 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      react-dom:
+        optional: true
+
+  '@plone/react-router@1.0.1':
+    resolution: {integrity: sha512-Cez3Et7ae4WjsPtCVkw68uSTmnPTqD783PwPQPtpaSbUIee/A7XC9J04nz/zLKCCzDvRSW+IrSnn7hEL4Pc3Zw==}
+    peerDependencies:
+      react: ^18.2.0 || ^19.0.0
+      react-dom: ^18.2.0 || ^19.0.0
     peerDependenciesMeta:
       react-dom:
         optional: true
@@ -4292,6 +4304,12 @@ snapshots:
     transitivePeerDependencies:
       - storybook
       - supports-color
+
+  '@plone/react-router@1.0.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+    dependencies:
+      react: 19.0.0
+    optionalDependencies:
+      react-dom: 19.0.0(react@19.0.0)
 
   '@plone/registry@2.3.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
